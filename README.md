@@ -36,35 +36,16 @@ This project, developed during my internship at Nexus Info, creates a chatbot us
    ```sh
    git clone https://github.com/Shreyaprasad21/Project-3-AI-ML-Series-Multiple-Disease-Detection-system.git
 
-2. Install dependencies:
+2. Run the Script: Execute the script chatbot_script.py in a Python environment:
    ```sh
-   pip install -r requirements.txt
+   python chatbot_script.py
 
-3. Run the desired disease prediction script:
-- For Parkinson's Disease:
-  ```
-  parkinsons.ipynb
-  ```
-- For Diabetes:
-  ```
-  diabetes.ipynb
-  ```
-- For Heart Disease:
-  ```
-  heart.ipynb
-  ```
+3. Chat with the Bot: Enter queries to interact with the chatbot. Type 'exit' to end the conversation.
   
-4. Follow the prompts to input data for prediction.
-
 ## File Structure
-- `parkinsons.ipynb`: Script for predicting Parkinson's Disease.
-- `diabetes.ipynb`: Script for predicting Diabetes.
-- `heart.ipynb`: Script for predicting Heart Disease.
-- `Dataset/`: Directory containing the datasets for each disease.
-- `parkinsons.csv`: Dataset for Parkinson's Disease.
-- `diabetes.csv`: Dataset for Diabetes.
-- `heart.csv`: Dataset for Heart Disease.
-- `README.md`: Instructions and information about the project.
+- `chatbot_script.py`: Main script implementing the chatbot functionality.
+- `dialogs_new.txt`: Dataset containing pre-stored questions and responses.
+- `nlp_utils.py`: Utility functions for text normalization.
 
 ## Deployment
 The project was deployed using Streamlit. To deploy the application locally:
