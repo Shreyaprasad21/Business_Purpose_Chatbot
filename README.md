@@ -38,12 +38,12 @@ This project, developed during my internship at Nexus Info, creates a chatbot us
 
 2. Run the Script: Execute the script chatbot_script.py in a Python environment:
    ```sh
-   python chatbot_script.py
+   Chatbot_project1.ipynb
 
 3. Chat with the Bot: Enter queries to interact with the chatbot. Type 'exit' to end the conversation.
   
 ## File Structure
-- `chatbot_script.py`: Main script implementing the chatbot functionality.
+- `Chatbot_project1.ipynb`: Main script implementing the chatbot functionality.
 - `dialogs_new.txt`: Dataset containing pre-stored questions and responses.
 - `nlp_utils.py`: Utility functions for text normalization.
 
@@ -51,15 +51,15 @@ This project, developed during my internship at Nexus Info, creates a chatbot us
 
 1. Start the chatbot by running:
   ```
-  python college_query_chatbot.py
+  Chatbot_project1.ipynb
   ```
 
 2. Interact with the chatbot in the console. Type 'exit' to end the conversation.
 
 ## Notes
-- The project was developed using Python, with the main chatbot functionality implemented in `college_query_chatbot.py`.
+- The project was developed using Python, with the main chatbot functionality implemented in `Chatbot_project1.ipynb`.
 - `nlp_utils.py` contains helper functions for text normalization.
-- The dataset (`college_dialogs.txt`) is provided and contains sample questions and responses.
+- The dataset (`dialogs_new.txt`) is provided and contains sample questions and responses.
 - Sentiment analysis and word cloud visualization are integrated into the chatbot.
 - TF-IDF vectorization is used to match user queries with stored questions.
 - The project can be extended to cover more queries and provide more detailed responses.
