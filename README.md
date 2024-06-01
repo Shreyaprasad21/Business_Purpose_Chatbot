@@ -34,7 +34,7 @@ This project, developed during my internship at Nexus Info, creates a chatbot us
 ## Usage
 1. Clone the repository:
    ```sh
-   git clone https://github.com/Shreyaprasad21/Project-3-AI-ML-Series-Multiple-Disease-Detection-system.git
+   git clone https://github.com/Shreyaprasad21/Business_Purpose_Chatbot.git
 
 2. Run the Script: Execute the script chatbot_script.py in a Python environment:
    ```sh
