@@ -48,82 +48,18 @@ This project, developed during my internship at Nexus Info, creates a chatbot us
 - `nlp_utils.py`: Utility functions for text normalization.
 
 ## Deployment
-The project was deployed using Streamlit. To deploy the application locally:
 
-1. Ensure Streamlit is installed:
+1. Start the chatbot by running:
   ```
-  pip install streamlit
-  ```
-
-2. Run the Streamlit app:
-  ```
-  streamlit run app.py
+  python college_query_chatbot.py
   ```
 
-3. Open your web browser and go to `http://localhost:8501`.
+2. Interact with the chatbot in the console. Type 'exit' to end the conversation.
 
 ## Notes
-- The project was developed using Jupyter Notebook, with separate notebooks (`parkinsons_detection.ipynb`, `diabetes_detection.ipynb`, `heart_disease_detection.ipynb`) for each disease.
-- Each notebook contains the code for data preprocessing, model training, and evaluation specific to the respective disease.
-- The datasets (`parkinsons.csv`, `diabetes.csv`, `heart_disease.csv`) are provided in the `Dataset/` directory.
-- Model deployment, user interface, and interaction were implemented using Streamlit, providing an intuitive web interface for disease prediction.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# Chatbot Implementation
-
-## Overview
-This Python script creates a chatbot that interacts with users, answers pre-defined questions, and stores chat history. It utilizes Natural Language Processing (NLP) techniques for sentiment analysis, TF-IDF word embedding, and visualizes word clouds.
-
-## Features
-- **Data Handling:** Loads and analyzes a dataset containing pre-stored questions and responses.
-- **Data Cleaning:** Applies text normalization techniques to clean and preprocess the dataset.
-- **Sentiment Analysis:** Uses the VADER sentiment analyzer to evaluate the sentiment of user queries.
-- **Word Cloud Visualization:** Generates word clouds to visualize frequent words in user queries and responses.
-- **TF-IDF Word Embedding:** Implements TF-IDF vectorization for word embedding.
-- **Chatbot Functionality:** Provides a chatbot interface that matches user queries with stored questions and returns informative responses.
-- **Chat History:** Maintains a chat history and displays relevant information.
-
-## How to Use
-1. **Installation:** Install required libraries using `pip install -r requirements.txt`.
-2. **Run the Script:** Execute the script `chatbot_script.py` in a Python environment.
-3. **Chat with the Bot:** Enter queries to interact with the chatbot. Type 'exit' to end the conversation.
-
-## Dependencies
-- pandas
-- nltk
-- matplotlib
-- wordcloud
-- scikit-learn
-
-## Files
-- `chatbot_script.py`: Main script implementing the chatbot functionality.
-- `dialogs_new.txt`: Dataset containing pre-stored questions and responses.
-- `nlp_utils.py`: Utility functions for text normalization.
-
-## Author
-[Shreya Prasad]
-
-Feel free to enhance and customize the code based on your needs. Happy chatting!
-
+- The project was developed using Python, with the main chatbot functionality implemented in `college_query_chatbot.py`.
+- `nlp_utils.py` contains helper functions for text normalization.
+- The dataset (`college_dialogs.txt`) is provided and contains sample questions and responses.
+- Sentiment analysis and word cloud visualization are integrated into the chatbot.
+- TF-IDF vectorization is used to match user queries with stored questions.
+- The project can be extended to cover more queries and provide more detailed responses.
