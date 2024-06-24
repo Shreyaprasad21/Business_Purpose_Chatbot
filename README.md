@@ -11,7 +11,7 @@ This project has been done as a part of my internship program at Nexus Info. Thi
 5. [File Structure](#file-structure)                             
 6. [Deployment](#deployment)
 7. [Notes](#notes)
-
+            
 ## Introduction
 This project, developed during my internship at Nexus Info, creates a chatbot using NLP techniques for user interaction and sentiment analysis. It utilizes TF-IDF word embedding and word cloud visualization for enhanced engagement.
 
