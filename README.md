@@ -4,7 +4,7 @@
 This project has been done as a part of my internship program at Nexus Info. This is the first project of my internship, where I utilized Natural Language Processing (NLP) techniques to create a robust chatbot for answering general queries. The internship was conducted remotely, allowing me to collaborate with professionals and enhance my skills in a virtual environment.      
 
 ## Contents
-1. [Introduction](#introduction)
+1. [Introduction](#introduction)                                        
 2. [Features](#features)
 3. [Dependencies](#dependencies)            
 4. [Usage](#usage)           
