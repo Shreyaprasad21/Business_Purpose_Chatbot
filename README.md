@@ -1,6 +1,6 @@
 ![nexus_software_pvt_ltd_cover](https://github.com/Shreyaprasad21/Project-3-AI-ML-Series-Multiple-Disease-Detection-system/assets/142075353/1e542e0d-2db0-41cb-99b7-d8f61c9da7cb)
 
-# PROJECT 1 - BUSINESS PURPOSE CHATBOT
+# PROJECT 1 - BUSINESS PURPOSE CHATBOT                                                           
 This project has been done as a part of my internship program at Nexus Info. This is the first project of my internship, where I utilized Natural Language Processing (NLP) techniques to create a robust chatbot for answering general queries. The internship was conducted remotely, allowing me to collaborate with professionals and enhance my skills in a virtual environment.      
 
 ## Contents
