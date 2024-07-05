@@ -34,9 +34,9 @@ This project, developed during my internship at Nexus Info, creates a chatbot us
 ## Usage
 1. Clone the repository:
    ```sh
-   git clone https://github.com/Shreyaprasad21/Business_Purpose_Chatbot.git
+   https://github.com/Shreyaprasad21/Project-1-Business-Purpose-Chatbot.git
 
-2. Run the Script: Execute the script chatbot_script.py in a Python environment:
+2. Run the Script:
    ```sh
    Chatbot_project1.ipynb
 
